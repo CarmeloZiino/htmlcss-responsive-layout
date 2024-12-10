@@ -25,7 +25,7 @@
   /* Le informazioni della ricetta sotto il video si dispongono a griglia */
   .quick-notes > ul {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
   }
 
@@ -52,4 +52,5 @@
     margin-right: 10px;
   }
 
+}
 
