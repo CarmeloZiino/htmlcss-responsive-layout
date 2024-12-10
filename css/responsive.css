@@ -1,6 +1,6 @@
 /* Soluzione qui */
 
-/* Tablet Mode - sopra i 768px */
+/***** Tablet Mode - sopra i 768px *****/
 
 @media screen and (min-width: 768px) {
   /* Il logo nell'header si allinea a sinistra */
@@ -54,3 +54,47 @@
 
 }
 
+/***** Dextop Mode - sopra i 992px *****/
+
+@media screen and (min-width: 992px) {
+    /* La grandezza del titolo della ricetta diventa ancora più grande */
+  .recipe-name {
+    font-size: 3rem;
+  }
+
+  /* Le informazioni della ricetta tornano a disporsi una sotto l'altra */
+  .quick-notes > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro */
+
+  .recipe-card{
+    display: flex;
+  }
+
+  .recipe-video{
+    flex-basis: 70%;
+  }
+  .recipe-info{
+flex-basis: 30%;
+  }
+
+  /* Compaiono i nomi delle piattaforme social */
+
+  .social-networks .label {
+    display: inline-block;
+  }
+
+
+  /* Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti */
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+
+}
