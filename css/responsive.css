@@ -9,7 +9,7 @@
   }
   /* Il padding del contenuto principale della pagina aumenta */
   main {
-    padding: 50px;
+    padding: 10% 10%;
   }
 
   /* Compare il testo "(Dolce Tradizionale)" */
@@ -71,6 +71,7 @@
 
   .recipe-card {
     display: flex;
+    height: 50vh;
   }
 
   .recipe-video {
@@ -79,7 +80,15 @@
   }
   .recipe-info {
     flex-basis: 30%;
+    padding: 15px;
   }
+
+.quick-notes>ul {
+    gap: 18px;
+}
+
+  .quick-notes li {
+    font-size: 12px;}
 
   /* Compaiono i nomi delle piattaforme social */
 
@@ -93,12 +102,7 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
-  }
-
-  /**** Accorgimenti personali per avvicinarsi di più al Mockup dello ScreenShot ****/
-  main {
-    padding: 0 100px;
-  }
+  }  
 
 }
 
