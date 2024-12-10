@@ -1,16 +1,55 @@
 /* Soluzione qui */
 
-
 /* Tablet Mode - sopra i 768px */
 
 @media screen and (min-width: 768px) {
-    #topbar{
-        justify-content: left;
-    }
+  /* Il logo nell'header si allinea a sinistra */
+  #topbar {
+    justify-content: left;
+  }
+  /* Il padding del contenuto principale della pagina aumenta */
+  main {
+    padding: 50px;
+  }
 
-    main {
-        padding: 40px;
-    }
+  /* Compare il testo "(Dolce Tradizionale)" */
+  .recipe-origin {
+    display: inline-block;
+  }
+
+  /* La grandezza del titolo diventa più grande */
+  .recipe-name {
+    font-size: 2rem;
+  }
+
+  /* Le informazioni della ricetta sotto il video si dispongono a griglia */
+  .quick-notes > ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes li {
+    font-size: 16px;
+    flex-basis: calc(100% / 3 - 15px);
+    margin: 0;
+  }
+
+  /* I bottoni social si allargano */
+  .social-networks button {
+    width: 100%;
+  }
+
+  /* ADS */
+  .ads {
+    display: block;
+  }
+
+  /* l'immagine nella descrizione della ricetta viene circondata dal testo */
+
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
 
 
-}
