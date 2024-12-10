@@ -106,4 +106,19 @@
  *****/
 
 @media screen and (min-width: 576px) {
+
+    /* l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px */
+
+    .presentation img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    /* I bottoni social si allagano già su dispositivi mobile più grandetti (576px) */
+
+    .social-networks button {
+        width: 100%;
+      }
+
+
 }
